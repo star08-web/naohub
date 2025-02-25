@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houston, abbiamo un problema</title>
+    <link rel="stylesheet" href="/css/pico/pico.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <link rel="manifest" href="/img/site.webmanifest">
+    <style>
+        .center{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            justify-items: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body data-nav="false">
+    <div class="site-wrap">
+        <div class="grid-bg"></div>
+        <div class="blur"></div>
+    </div>
+    <div class="site">
+        <main class="container">
+            <div class="center">
+                <img src="/img/5eee9e93-2e5a-4b6d-ae05-afcf884871dc.webp" alt="Server in fiamme">
+            </div>
+            <h1>Okay, qui c'è decisamente qualche problema</h1>
+            <p>Tranquillo, non è colpa tua. hai solo fatto click su un link morto</p>
+            <p>Se vuoi saperne di più visita <a href="https://it.wikipedia.org/wiki/Errore_404" target="_blank" rel="noopener noreferrer">questo sito</a></p>
+            <p>Se invece vuoi tornare al mio sito <a href="/">Clicca qui</a></p>
+        </main>
+    </div>
+    <div class="notify-bar" id="notify-bar">
+        <div class="notify-bar-content">
+            <p><i class="fa-solid fa-bell" id="notify-icon"></i> <p id="notify-text"></p></p>
+        </div>
+    </div>
+    <div class="d-triggerer" id="d-triggerer" title="Dyslexia Friendly Mode">
+        <i class="fa-regular fa-eye"></i>
+    </div>
+</body>
+    <script src="/js/background.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/notification.js"></script>
+    <script src="/js/dyslexia-friendly.js"></script>
+</html>

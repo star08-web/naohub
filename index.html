@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Star08-web">
+    <meta name="apple-mobile-web-app-title" content="Star08-web">
+    <meta name="theme-color" content="#200054">
+    <meta name="msapplication-navbutton-color" content="#200054">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Star08-web</title>
+    <meta name="title" content="Star08-web">
+    <meta name="description" content="Just me">
+    <meta name="keywords" content="star08-web, star web, STAR08-WEB">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Italian">
+    <meta name="author" content="Federico Lui">
+    <link rel="stylesheet" href="css/pico/pico.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="canonical" href="https://star08-web.pages.dev"/>
+</head>
+<body data-nav="false">
+    <div class="site-wrap">
+        <div class="grid-bg"></div>
+        <div class="blur"></div>
+    </div>
+    <div class="site" data-AOS="fade-up">
+        <main class="container">
+            <div class="header">
+                <div class="header-center">
+                    <header>
+                        <img src="img/logo.webp" alt="logo" width="150" height="150" class="header-rounded-img">
+                        <h1>Ciao, sono Federico</h1>
+                        <h2>ma puoi chiamarmi Star</h2>
+                    </header>
+                </div>
+                <br>
+                <br>
+                <div class="header-container">
+                    <div class="header-description">
+                        <p>
+                            sono uno studente di <span id="age"></span> anni dall'italia
+                            <br>
+                            mi sono sempre piaciuti i computer, ho sempre trovato interessante il modo in cui lavoravano
+                        </p>
+                        <small>
+                            Devi attribuirmi credito per qualcosa?
+                            <br>
+                            dai una occhiata <a href="branding.html">qui</a>
+                        </small>
+                        <br>
+                        <br>
+                        <small>
+                            preferivi il vecchio sito?
+                            <br>
+                            <a href="https://star08-web.github.io/website-archive">clicca qui</a>
+                        </small>
+                    </div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>	
+			<br>
+			<br>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="notify-bar" id="notify-bar">
+        <div class="notify-bar-content">
+            <p><i class="fa-solid fa-bell" id="notify-icon"></i> <p id="notify-text"></p></p>
+        </div>
+    </div>
+    <div class="menu-center">
+        <div id="menu" class="menu ">
+            <i id="open-icon-menu" class="fa-solid fa-bars-staggered"></i>
+            <i id="close-icon-menu" class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+        <div class="d-triggerer" id="d-triggerer" title="Dyslexia Friendly Mode">
+            <i class="fa-regular fa-eye"></i>
+        </div>
+        <nav class="navbar" id="navbar">
+            <div class="nav-links">
+                <br>
+                <br>
+                <a class="nav-link " href="#">
+                    <h2 class="nav-link-label font-nunito">Pagina principale</h2>
+                    <img class="nav-link-image" src="img/home.webp" alt="home-img"/>
+                  </a>
+                  <a class="nav-link " href="progetti.html">
+                    <h2 class="nav-link-label font-nunito">Progetti</h2>
+                    <img class="nav-link-image" src="img/progetti.webp" alt="progetti-img"/>
+                  </a>
+                  <a class="nav-link " href="devices.html">
+                    <h2 class="nav-link-label font-nunito">I miei dispositivi</h2>
+                    <img class="nav-link-image" src="img/devices.webp" alt="devices-img"/>
+                  </a>
+                  <a class="nav-link " href="musica.html">
+                    <h2 class="nav-link-label font-nunito">Musica</h2>
+                    <img class="nav-link-image" src="img/musica.webp" alt="musica-img"/>
+                  </a>
+                  <a class="nav-link " href="youtube.html">
+                    <h2 class="nav-link-label font-nunito">YouTube</h2>
+                    <img class="nav-link-image" src="img/youtube.webp" alt="youtube-img"/>
+                  </a>
+            </div>
+        </nav>
+</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/notification.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/dyslexia-friendly.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById("age").textContent = calcAge("08-06-2008");
+        });
+    </script>
+    <script>        
+        AOS.init()
+    </script>
+</html>

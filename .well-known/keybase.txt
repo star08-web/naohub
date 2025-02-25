@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/star08_web
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://star08-web.pages.dev
+  * I am star08_web (https://keybase.io/star08_web) on keybase.
+  * I have a public key ASA0if9coobbu_tdgfWz9xXN-dEQnsFur_nd2DxwT0yPTQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202e88210f40519552b239dea77786450b4f0de049795f65cd312705aae459d44d0a",
+      "host": "keybase.io",
+      "kid": "01203489ff5ca286dbbbfb5d81f5b3f715cdf9d1109ec16eaff9ddd83c704f4c8f4d0a",
+      "uid": "7fe12fb41de58362c014a0da8f027719",
+      "username": "star08_web"
+    },
+    "merkle_root": {
+      "ctime": 1713731837,
+      "hash": "ad86ea7bb8af77862309077f0b54d8939e7b1b202e3ef1846c7c2a298f3efc4d107e7c96df8f279f1779b1ad19bbd982ba2df7d212948716938aa348cdd4d61c",
+      "hash_meta": "392a54ca6592043ac38f531a9132f63e1990198a5e34bcb52d0d325965c1333e",
+      "seqno": 25663793
+    },
+    "service": {
+      "entropy": "dpxdZHL+UbxxTuUlrU25MfRX",
+      "hostname": "star08-web.pages.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.2.8"
+  },
+  "ctime": 1713731865,
+  "expire_in": 504576000,
+  "prev": "f6127f4c4d411ec8436520b4cd1a493a27d28062230948183b62d395275e2d42",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNIn/XKKG27v7XYH1s/cVzfnREJ7Bbq/53dg8cE9Mj00Kp3BheWxvYWTESpcCCcQg9hJ/TE1BHshDZSC0zRpJOifSgGIjCUgYO2LTlSdeLULEIAeFk7FQ4YnMMg5vUmfy8xz32QJP6er1K3IXoBCt+PmZAgHCo3NpZ8RA/hpZukXEVLhsprvt6KRZV6rRBm0r5OBjcFitLkt9zoaE2b22FxA3L76A2UiiDg8rE6T1cySDT56Chsan9uatBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICTewOoz9nlv5qBaB1iMtnL5aWwfevVRi6t+qTs1kocoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/star08_web
+
+==================================================================

@@ -1,0 +1,7 @@
+[data-theme="dark"] {
+    --primary: #300479 !important;
+    --primary-hover: #2a007aaa !important;
+    --primary-focus: #1a0030 !important;
+    --primary-inverse: #ffffff !important;
+    --link-color: #4052f8 !important;
+}
