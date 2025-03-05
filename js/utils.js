@@ -44,26 +44,6 @@ function copyToClipboard(content, type="link") {
     spawnnotify(`${type} copiato negli appunti`, 'success')
 }
 
-function calcAge(birth) {
-    try {
-        const today = new Date();
-        const birthDate = new Date(birth.replace(/-/g, '/')); // now should work in safari/webkit/call it whatever you want, thanks apple for feeling special about date formats
-        let years = today.getFullYear() - birthDate.getFullYear();
-
-        if (today.getMonth() < birthDate.getMonth() || (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate())) {
-            years -= 1;
-        }
-        if (isNaN(years) || years <= 0) {
-            spawnnotify('Errore durante il calcolo dell\'età, le informazioni potrebbero essere non aggiornate', 'error');
-            return 15;
-        }
-        return years;
-    } catch (error) {
-        spawnnotify(`Errore durante il calcolo dell'età ${error}`, 'error');
-        return 15;
-    }
-}
-
 function isMobile() {
     let mobile = false;
     let userAgent = navigator.userAgent;

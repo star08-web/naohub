@@ -3,7 +3,7 @@
 @import url('../fonts/opendyslexic/opendyslexic.css');
 @import url('../fonts/firacode/fira_code.css');
 @import url('../fonts/blobmoji/blobmoji.css');
-@import url('./theme-st08wb.css');
+@import url('./theme-nao.css');
 @import url('https://rsms.me/inter/inter.css');
 
 :root {
@@ -118,11 +118,11 @@ code, kbd, pre, samp {
     top: 85%;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #052db1;
-    border: none !important;
+    background-color: transparent;
     outline: none;
     z-index: 2;
-    border-radius: 100%;
+    border-radius: 7px;
+    border: white 2px solid;
     width: 5rem;
     height: 5rem;
     transition: transform, background-color;
@@ -155,7 +155,7 @@ code, kbd, pre, samp {
     top: 50%;
     transform: translate(-50%, -50%) scale(0.9);
     font-size: 1.75rem;
-    opacity: 0;
+    opacity: 1;
     transition: transform, opacity;
     transition-timing-function: ease;
     transition-duration: 400ms;
@@ -208,9 +208,6 @@ code, kbd, pre, samp {
     border-radius: 0.5rem;
     margin-top: 0.75rem;
     object-fit: cover;
-  }
-  .menu.toggled{
-    background-color: #66c3ff;
   }
   .d-triggerer{
     position: fixed;

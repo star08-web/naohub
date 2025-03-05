@@ -5,17 +5,18 @@ function initbg() {
   const gridSize = Math.ceil((screenWidth * screenHeight) / 2500);
   const gridItems = [];
   const hexcolors = [
-    '#4B0082',
-    '#483D8B',
-    '#8A2BE2',
-    '#9400D3',
-    '#9932CC',
-    '#8B008B',
-    '#800080',
-    '#9370DB',
-    '#7B68EE',
-    '#6A5ACD',
-    '#200054'
+    '#001F3F', 
+    '#003366', 
+    '#004080', 
+    '#0066CC', 
+    '#0080FF', 
+    '#1E90FF', 
+    '#4169E1', 
+    '#6495ED', 
+    '#87CEEB', 
+    '#ADD8E6', 
+    '#B0E0E6', 
+    '#E0FFFF'
   ];
 
   for (let i = 0; i < gridSize; i++) {
