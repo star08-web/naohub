@@ -1,10 +1,11 @@
+Questo sito web è basato sul codice del portfolio personale di Federico Lui
+Esso è trovabile in forma originale all'indirizzo https://github.com/star08-web/my-site/tree/a7684f5e437f2ea6871b79ff99c8b6c6eeb5f531
+
+-- begin of LICENSE snippet --
+
 MIT License
 
-Copyright (c) 2025 Istituto Tecnico Industriale Statale "S. Cannizzaro" - Rho (MI)
-NAO Challenge 2025, gruppo 1
-
-Questo codice include parti di codice di terze parti, che sono soggette a copyright e licenze diverse.
-Per i dettagli, vedere i file corrispondenti, trovabili nella cartella "third_party".
+Copyright (c) 2024 star08-web
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,3 +24,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-- end of LICENSE snippet --
+
+L'istituto non è responsabile per il contenuto offerto in versioni future al commit a7684f5e437f2ea6871b79ff99c8b6c6eeb5f531

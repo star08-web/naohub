@@ -272,23 +272,10 @@
   p,h1,h2,h3,h4,h5,h6,span{
     cursor: text;
   }
-  .filler > *{
-    color: transparent !important;
-    background-color: transparent !important;
-    border: none !important;
-    cursor: default !important;
-  }
-  .filler > *::selection{
-    background-color: transparent !important;
-  }
   a{
     text-decoration: none;
     color: var(--link-color) !important;
     
-  }
-  #miniplayer{
-    width: 480px;
-    height: 360px;
   }
   @media only screen and (max-width: 844px) {
     .navbar {
@@ -321,8 +308,5 @@
     .nav-links > .nav-link > .nav-link-image {
       width: 100%;
       max-width: none;
-    }
-    .filler{
-      display: none;
     }
   }
