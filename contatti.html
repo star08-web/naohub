@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="NaoHub">
+    <meta name="apple-mobile-web-app-title" content="NaoHub">
+    <meta name="theme-color" content="#200054">
+    <meta name="msapplication-navbutton-color" content="#200054">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NaoHub</title>
+    <meta name="title" content="NaoHub">
+    <meta name="description" content="NAO Challenge 2025 ITIS Cannizzaro">
+    <meta name="keywords" content="NaoHub, Nao, Challenge, Nao Challenge, Cannizzaro, ITIS, STAR08-WEB">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Italian">
+    <meta name="author" content="Federico Lui">
+    <link rel="stylesheet" href="css/pico/pico.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="canonical" href="https://naohub.pages.dev"/>
+</head>
+<body data-nav="false">
+    <div class="site-wrap">
+        <div class="grid-bg"></div>
+        <div class="blur"></div>
+    </div>
+    <div class="site" data-AOS="fade-up">
+        <main class="container">
+            <div class="header">
+                <div class="header-center">
+                    <header>
+                        <h1>Contattaci</h1>
+                        <br>
+                        <p>
+                            Se hai bisogno di informazioni o vuoi contattarci per qualsiasi motivo, compila il modulo sottostante e ti risponderemo il prima possibile.
+                        </p>
+                    </header>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <article>
+                <header>
+                    <h2>
+                        Modulo di contatto
+                    </h2>
+                </header>
+                <form id="cform">
+                    <input type="text" id="name" name="name" placeholder="Nome" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="subject" name="subject" placeholder="Oggetto" required>
+                    <textarea id="message" name="message" placeholder="Messaggio" required></textarea>
+                    <button type="submit" id="submit">Invia</button>
+                </form>
+            </article>
+            <br>
+            <br>
+            <br>
+        </main>
+    </div>
+    <div class="notify-bar" id="notify-bar">
+        <div class="notify-bar-content">
+            <p><i class="fa-solid fa-bell" id="notify-icon"></i> <p id="notify-text"></p></p>
+        </div>
+    </div>
+    <div class="menu-center">
+        <div id="menu" class="menu ">
+            <i id="open-icon-menu" class="fa-solid fa-bars-staggered"></i>
+            <i id="close-icon-menu" class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+        <div class="d-triggerer" id="d-triggerer" title="Dyslexia Friendly Mode">
+            <i class="fa-regular fa-eye"></i>
+        </div>
+        <nav class="navbar" id="navbar">
+            <div class="nav-links">
+                <br>
+                <br>
+                <a class="nav-link " href="index.html">
+                    <h2 class="nav-link-label font-nunito">Pagina principale</h2>
+                    <img class="nav-link-image" src="fontawesome/svgs/solid/house.svg" alt="home-img"/>
+                  </a>
+                  <a class="nav-link " href="https://httpsnaocreator-springcom-2.creator-spring.com" target="_blank" rel="noopener noreferrer">
+                    <h2 class="nav-link-label font-nunito">Merch</h2>
+                    <img class="nav-link-image" src="fontawesome/svgs/solid/shirt.svg" alt="merch-img"/>
+                  </a>
+                  <a class="nav-link " href="about.html">
+                    <h2 class="nav-link-label font-nunito">Chi siamo</h2>
+                    <img class="nav-link-image" src="fontawesome/svgs/solid/user-group.svg" alt="about-img"/>
+                  </a>
+                  <a class="nav-link " href="contatti.html">
+                    <h2 class="nav-link-label font-nunito">Contatti</h2>
+                    <img class="nav-link-image" src="fontawesome/svgs/solid/phone.svg" alt="contatti-img"/>
+                  </a>
+                  <a class="nav-link " href="calcio.html">
+                    <h2 class="nav-link-label font-nunito">Cos'è il calcio</h2>
+                    <img class="nav-link-image" src="fontawesome/svgs/solid/futbol.svg" alt="contatti-img"/>
+                  </a>
+                  <a class="nav-link " href="info.html">
+                    <h2 class="nav-link-label font-nunito">Informazioni utili</h2>
+                    <img class="nav-link-image" src="fontawesome/svgs/solid/circle-info.svg" alt="info-img"/>
+                  </a>
+            </div>
+        </nav>
+</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/notification.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/dyslexia-friendly.js"></script>
+    <script>        
+        AOS.init()
+        const dsc_webhook = "https://discord.com/api/webhooks/1349677203046137896/W1MjrAlWkD9WH2bY_hU2mWCfF0RQQ6TP-ALOirSWT5vsak-5xnnHdNjJF6d7RRfmEoRl";
+        const cform = document.getElementById("cform");
+       
+        cform.addEventListener("submit", function(){
+            event.preventDefault();
+            const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            const subject = document.getElementById("subject").value;
+            const message = document.getElementById("message").value;
+            const data = {
+                content: `**Nome:** ${name}\n**Email:** ${email}\n**Oggetto:** ${subject}\n**Messaggio:** ${message}`
+            }
+            fetch(dsc_webhook, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => {
+                if(response.ok){
+                    spawnnotify("Messaggio inviato con successo", "success");
+                    cform.reset();
+                }
+            })
+            .catch(error => {
+                console.error(error.message)
+                spawnnotify("Errore nell'invio del messaggio", "error");
+            })
+        })
+    </script>
+</html>
