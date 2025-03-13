@@ -57,6 +57,26 @@ function isMobile() {
     return mobile;
 }
 
+function calcAge(birth) {
+    try {
+        const today = new Date();
+        const birthDate = new Date(birth.replace(/-/g, '/')); // now should work in safari/webkit/call it whatever you want, thanks apple for feeling special about date formats
+        let years = today.getFullYear() - birthDate.getFullYear();
+
+        if (today.getMonth() < birthDate.getMonth() || (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate())) {
+            years -= 1;
+        }
+        if (isNaN(years) || years <= 0) {
+            spawnnotify('Errore durante il calcolo dell\'etÃ , le informazioni potrebbero essere non aggiornate', 'error');
+            return 15;
+        }
+        return years;
+    } catch (error) {
+        spawnnotify(`Errore durante il calcolo dell'etÃ  ${error}`, 'error');
+        return 15;
+    }
+}
+
 // Preload Images Self Invoking Function
 document.addEventListener('DOMContentLoaded', function() {
     let images = document.querySelectorAll('img');
