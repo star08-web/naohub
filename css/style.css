@@ -225,6 +225,42 @@
   object-fit: cover;
 }
 
+.logo-floating {
+  user-select: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  top: 10%;
+  left: 95%;
+  transform: translateX(-50%);
+  border: none !important;
+  outline: none;
+  z-index: 2;
+  border-radius: 7px;
+  width: 124px;
+  height: 124px;
+  transition: transform, background-color;
+  transition-timing-function: ease;
+  transition-duration: 400ms;
+}
+
+.logo-floating > a{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.logo-floating:hover {
+  transform: translateX(-50%) scale(1.04);
+  cursor: pointer;
+}
+
+.logo-floating:active {
+  transform: translateX(-50%) scale(0.90);
+}
+
 .d-triggerer {
   position: fixed;
   display: flex;
