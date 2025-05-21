@@ -134,38 +134,9 @@
 <script src="./js/notification.js"></script>
 <script src="./js/utils.js"></script>
 <script src="./js/dyslexia-friendly.js"></script>
+<script src="./js/contactform.js"></script>
 <script>
-    AOS.init()
-    const dsc_webhook = "https://discord.com/api/webhooks/1349677203046137896/W1MjrAlWkD9WH2bY_hU2mWCfF0RQQ6TP-ALOirSWT5vsak-5xnnHdNjJF6d7RRfmEoRl";
-    const cform = document.getElementById("cform");
-
-    cform.addEventListener("submit", function () {
-        event.preventDefault();
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        const subject = document.getElementById("subject").value;
-        const message = document.getElementById("message").value;
-        const data = {
-            content: `**Nome:** ${name}\n**Email:** ${email}\n**Oggetto:** ${subject}\n**Messaggio:** ${message}`
-        }
-        fetch(dsc_webhook, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        })
-            .then(response => {
-                if (response.ok) {
-                    spawnnotify("Messaggio inviato con successo", "success");
-                    cform.reset();
-                }
-            })
-            .catch(error => {
-                console.error(error.message)
-                spawnnotify("Errore nell'invio del messaggio", "error");
-            })
-    })
+    AOS.init();
 </script>
 
 </html>
