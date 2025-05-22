@@ -7,6 +7,10 @@ const contactForm = document.getElementById("cform");
 // Gestione dell'invio del form
 contactForm.addEventListener("submit", async function(event) {
     event.preventDefault();
+
+    if (!validateForm()){
+        return;
+    }
     
     // Disabilita il pulsante di invio per prevenire invii multipli
     const submitButton = contactForm.querySelector("button[type='submit']");
@@ -62,7 +66,7 @@ contactForm.addEventListener("submit", async function(event) {
     }
 });
 
-// Funzione per la validazione lato client (opzionale ma consigliata)
+// Funzione per la validazione lato client
 function validateForm() {
     const name = document.getElementById("name").value.trim();
     const email = document.getElementById("email").value.trim();
